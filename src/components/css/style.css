@@ -1,0 +1,44 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.cont_01 {
+    display: flex;
+    height: 300px;
+    width: 1200px;
+}
+
+.cont_02 {
+    display: flex;
+    background-color: silver;
+    height: 300px;
+    width: 1200px;
+}
+
+.card {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(100% / 3);
+}
+
+.bg-01 {
+    background-color:#28DF99;
+}
+
+.bg-02 {
+    background-color:#99F3BD;
+}
+
+.bg-03 {
+    background-color:#D2F6C5;
+}
+
+.bg-04 {
+    background-color: #f6f7d4;
+}
